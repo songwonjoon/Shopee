@@ -823,15 +823,6 @@ track_staff
 
 
 # 03. 프로젝트 구현
-### Shopee App
-
-### Shopee Main
-
-### Shopee LLM 
-
-### Pickee Main 
-
-### Pickee Mobile 
 
 ### PhysicalAI
 
@@ -851,20 +842,16 @@ track_staff
 - 512 → 256 → 6D Pose (x·y·z·rx·ry·rz)  
 
 3) Two-Stream Network 기반 Visual Servoing
+4) 
+참고문헌
+![reference](https://github.com/addinedu-roscamp-7th/roscamp-repo-1/blob/main/assets/images/reference.png?raw=true)
 
-![vs](https://github.com/songwonjoon/Shopee/blob/main/assets/images/visual_servoing.png?raw=true)
+사용한 Two-Stream Network 구조
+![visual_servoing](https://github.com/addinedu-roscamp-7th/roscamp-repo-1/blob/main/assets/images/visual_servoing.png?raw=true)
 
 - 현재 이미지와 목표 이미지가 동일할때 까지 반복 제어 
 
-### Pickee Vision
-
-### Pickee Arm
-
-### Packee Main
-
-### Packee Vision
-
-### Packee Arm
+### Packee
 
 
 # 마무리
