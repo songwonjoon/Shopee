@@ -835,9 +835,6 @@ track_staff
 
 ### PhysicalAI
 
-Physical AI는 **상품을 감지 → Pose 예측 → Visual Servoing → 정확한 Pick**  
-이 전체 과정을 AI로 자동화한 시스템입니다.
----
 1) YOLO11 기반 상품 감지 (Detection)
 
 ![YOLO11](https://github.com/songwonjoon/Shopee/blob/main/assets/images/yolo.png?raw=true)
