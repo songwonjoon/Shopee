@@ -873,12 +873,6 @@ track_staff
 7) 작동 순서
 ![작동순서](https://github.com/songwonjoon/Shopee/blob/main/assets/images/작동순서.png?raw=true)
 
-8) 시연영상
-<img src="![시연영상](https://github.com/user-attachments/assets/1135e78f-eb24-4575-adb5-fe8a90f366b5)">
-
-
-
-
 # 마무리
 ## 소감
 | 팀 | 이름 | 소감 |
