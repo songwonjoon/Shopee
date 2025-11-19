@@ -833,6 +833,32 @@ track_staff
 
 ### Pickee Mobile 
 
+### PhysicalAI
+
+Physical AI는 **상품을 감지 → Pose 예측 → Visual Servoing → 정확한 Pick**  
+이 전체 과정을 AI로 자동화한 시스템입니다.
+---
+1) YOLO11 기반 상품 감지 (Detection)
+
+![YOLO11](https://github.com/songwonjoon/Shopee/blob/main/assets/images/yolo.png?raw=true)
+
+- 자체 촬영/라벨링 1,156장  
+- 이클립스/와사비/생선 등 18종 분류  
+- yolov8, yolov11 성능 비교 후 최종 yolo11로 선정
+---
+2) PoseCNN 기반 6D Pose 추정 (Position + Orientation)
+
+![CNN](https://github.com/songwonjoon/Shopee/blob/main/assets/images/CNN.png?raw=true)
+
+- ResNet18 Feature Extractor 
+- 512 → 256 → 6D Pose (x·y·z·rx·ry·rz)  
+
+3) Two-Stream Network 기반 Visual Servoing
+
+![vs](https://github.com/songwonjoon/Shopee/blob/main/assets/images/visual_servoing.png?raw=true)
+
+- 현재 이미지와 목표 이미지가 동일할때 까지 반복 제어 
+
 ### Pickee Vision
 
 ### Pickee Arm
