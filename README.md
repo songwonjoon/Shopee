@@ -833,7 +833,7 @@ track_staff
 - 자체 촬영/라벨링 1,156장  
 - 이클립스/와사비/생선 등 18종 분류  
 - yolov8, yolov11 성능 비교 후 최종 yolo11로 선정
----
+
 2) PoseCNN 기반 6D Pose 추정 (Position + Orientation)
 
 ![CNN](https://github.com/songwonjoon/Shopee/blob/main/assets/images/CNN.png?raw=true)
@@ -842,16 +842,41 @@ track_staff
 - 512 → 256 → 6D Pose (x·y·z·rx·ry·rz)  
 
 3) Two-Stream Network 기반 Visual Servoing
-4) 
-참고문헌
+   
+- 참고문헌
 ![reference](https://github.com/addinedu-roscamp-7th/roscamp-repo-1/blob/main/assets/images/reference.png?raw=true)
 
-사용한 Two-Stream Network 구조
+- 사용한 Two-Stream Network 구조
 ![visual_servoing](https://github.com/addinedu-roscamp-7th/roscamp-repo-1/blob/main/assets/images/visual_servoing.png?raw=true)
 
 - 현재 이미지와 목표 이미지가 동일할때 까지 반복 제어 
 
 ### Packee
+1) 패키 구성
+![패키구성](https://github.com/songwonjoon/Shopee/blob/main/assets/images/패키구성.png?raw=true)
+
+2) 통신 흐름
+![통신흐름](https://github.com/songwonjoon/Shopee/blob/main/assets/images/통신흐름.png?raw=true)
+
+3) 작업 분배
+![작업분배](https://github.com/songwonjoon/Shopee/blob/main/assets/images/작업분배.png?raw=true)
+
+4) 좌표계 설정
+![좌표계설정](https://github.com/songwonjoon/Shopee/blob/main/assets/images/좌표계설정.png?raw=true)
+
+5) 엔드이펙터 tcp
+![tcp](https://github.com/songwonjoon/Shopee/blob/main/assets/images/tcp.png?raw=true)
+
+6) 충돌 객체
+![충돌객체](https://github.com/songwonjoon/Shopee/blob/main/assets/images/충돌객체.png?raw=true)
+
+7) 작동 순서
+![작동순서](https://github.com/songwonjoon/Shopee/blob/main/assets/images/작동순서.png?raw=true)
+
+8) 시연영상
+<img src="![시연영상](https://github.com/user-attachments/assets/1135e78f-eb24-4575-adb5-fe8a90f366b5)">
+
+
 
 
 # 마무리
